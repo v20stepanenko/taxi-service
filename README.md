@@ -31,7 +31,7 @@ to the authorization / registration page if the user is not authorized. The appl
 
 1. Load all Maven dependencies
 2. You have to install MySQL ,and you can initialize tables with commands from the resources/initialization_db.sql file
-3. Change into /util/ConnectionUtil.java class fields "URL", "user" and "password" to access the created table
+3. Change in /util/ConnectionUtil.java class fields "URL", "user" and "password" to access the created table
 4. In src/core/resources/log4j2.xml in line <File name="LogToFile" File name="path"> you need to change "path" to your absolute path to the file .log
 5. Build project, you can use "mvn clean package" command
 6. Configure and run Apache Tomcat
