@@ -4,7 +4,7 @@
         <Console name="LogToConsole" target="SYSTEM_OUT">
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
         </Console>
-        <File name="LogToFile" fileName="D:/CV/taxi-service/logs/log.log">
+        <File name="LogToFile" fileName=YOUR FILEPATH TO SAVE LOG FILE>
             <PatternLayour>
                 <Pattern>%d %p %m%n</Pattern>
             </PatternLayour>
