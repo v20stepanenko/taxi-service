@@ -21,7 +21,7 @@ public class AuthenticationServiceImpl implements AuthenticationService {
             logger.info("Authentication was successful. Params: login={}", login);
             return driver.get();
         }
-        logger.warn("Authentication attempt failed. Params: login={}", login);
+        logger.error("Authentication attempt failed. Params: login={}", login);
         throw new AuthenticationException("Username or password incorrect");
     }
 }
