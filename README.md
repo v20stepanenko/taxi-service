@@ -14,24 +14,21 @@ to the authorization / registration page if the user is not authorized. The appl
 3. DAO (Data tier)
 
 
-#### TECHNOLOGIES WE USED:
+#### Technologies::
 
-1. TOMCAT 
+1. Tomcat 
 2. MYSQL  
-3. IoC(inject fields)
 4. JSTL 
 5. JSP 
 6. HTML, CSS 
 7. JDBC 
-8. MAVEN
+8. Maven
 9. Log4j
 
 
-#### Tips on how to launch the application:
+#### Steps to launch the application:
 
-1. Load all Maven dependencies
-2. You have to install MySQL ,and you can initialize tables with commands from the resources/initialization_db.sql file
-3. Change in /util/ConnectionUtil.java class fields "URL", "user" and "password" to access the created table
-4. In src/core/resources/log4j2.xml in line <File name="LogToFile" File name="path"> you need to change "path" to your absolute path to the file .log
-5. Build project, you can use "mvn clean package" command
-6. Configure and run Apache Tomcat
+1. You have to install MySQL ,and you can initialize tables with commands from the resources/initialization_db.sql file
+2. Change in /util/ConnectionUtil.java class fields "URL", "user" and "password" to access the created table
+3. In src/core/resources/log4j2.xml in line <File name="LogToFile" File name="path"> you need to change "path" to your absolute path to the file .log
+4. Configure and run Apache Tomcat
